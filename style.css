@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body { 
+    background-color: black;
+}
+
+div {
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    display: inline;
+    width: 300px;
+    height: 200px;
+}
+
+.titulo {
+    margin: 1rem;
+    color: #f165a9;
+}
+
+p {
+    color: white;
+    margin-bottom: 2rem;
+}
+input {
+    display: inline-block;
+}
+
+button {
+    display: inline-block;
+    color: white;
+    background-color: pink;
+    width: 100px;
+    height: 19px;
+    border: none;
+    border-radius: 20px;
+}
+h1 {
+    font-size: 60px;
+}
+
+span {
+    margin-bottom: 30px;
+    display: block;
+}
+video {
+    display: block; /* Certifica-se de que o vídeo se comporte como um bloco */
+    margin: 20px auto; /* Centraliza o vídeo e adiciona margem superior e inferior */
+}
